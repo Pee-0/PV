@@ -1,0 +1,89 @@
+nav{
+    text-align: right;
+}
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+}
+div{
+    text-align: center;
+}
+div img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.info-box h1 {
+    color: aqua;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.thai-title {
+    color: aqua;
+    margin-left: -230px; 
+    margin-top: 11px;
+    font-size: 18px;
+}
+
+aside {
+  text-align: right;       
+  white-space: nowrap;     
+}
+
+aside p, aside a {
+    color: aliceblue;
+    display: inline-block;  
+    margin-left: 10px;       
+    vertical-align: middle;  
+}
+@media (max-width:400px) {
+  body {
+    font-size: 11px;
+  }
+  .card {
+  position: relative;
+  margin: 70px auto;
+  background-color: #111;
+  border: 0px solid aqua;
+  border-radius: 16px;
+  padding: 15px;
+  width: fit-content;
+  text-align: center;
+  box-shadow: 0 0 15px aqua;
+  display: flex;
+}
+.thai-title{
+    font-size: 0.85em;
+    margin-top: 5px;
+    font-weight: normal;
+    color: #00ffff;
+    position: relative;
+    top: 15px;
+    left: 70px;
+}
+
+  img {
+    position: relative;
+    top: 13px;
+    left: -14px;
+    text-align: center;
+    max-width: 150px;
+    max-height: 180px;
+}
+
+.info-box h1 {
+    margin: 3px;
+    color: aqua;
+    font-size: 10px;
+    font-weight: bold;
+    margin-top:40px;
+    position: relative;
+    top: 20px;
+    left: -20px;
+}
+
+
+}
